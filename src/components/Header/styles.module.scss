@@ -1,0 +1,29 @@
+.header {
+  padding: 3.2rem 1rem;
+  font-size: 1.6rem;
+  position: absolute;
+  z-index: 1;
+  width: calc(100% - 24px);
+
+  &__content {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (min-width: 1320px) {
+      width: 1280px;
+    }
+  }
+
+  &__navigation {
+    &__itens {
+      display: flex;
+      gap: 3rem;
+
+      & a {
+        color: #f2f2f2;
+      }
+    }
+  }
+}

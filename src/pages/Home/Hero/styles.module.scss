@@ -1,0 +1,18 @@
+.hero {
+  height: 65vh;
+  background: url('./../../../images/banner.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.375;
+  @media (min-width: 1023px) {
+    background-position: center 65%;
+  }
+
+  &__content {
+    margin: 0 auto;
+    height: 100%;
+    @media (min-width: 1320px) {
+      width: 1280px;
+    }
+  }
+}
