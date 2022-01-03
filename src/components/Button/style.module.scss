@@ -1,0 +1,15 @@
+.button {
+  display: inline-block;
+  width: 256px;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  margin-top: 2.4rem;
+  &:hover {
+    color: #202020;
+    background: #f2f2f2;
+  }
+}
