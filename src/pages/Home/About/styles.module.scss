@@ -13,6 +13,7 @@
     &__description {
       display: flex;
       justify-content: space-between;
+      margin-bottom: 2rem;
 
       &__text {
         margin-right: 1rem;
@@ -22,7 +23,7 @@
         }
 
         @media (min-width: 800px) {
-          width: min(50vw, 640px);
+          width: min(50vw, 648px);
         }
       }
 
@@ -41,13 +42,17 @@
     }
 
     &__benefits {
+      position: relative;
       display: flex;
-      justify-content: space-between;
 
       &__list {
+        width: 100%;
         @media (min-width: 800px) {
           padding: 1.6rem;
-          width: min(50vw, 640px);
+          & a {
+            position: absolute;
+            bottom: 8px;
+          }
         }
       }
     }

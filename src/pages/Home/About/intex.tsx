@@ -2,10 +2,11 @@ import { Title } from '../../../components/Title'
 import BarberImg from './../../../images/barber-with-customer.jpg'
 import BarberProducts from './../../../images/barber-products.jpg'
 import style from './styles.module.scss'
+import Button from '../../../components/Button'
 
 export const About = () => {
   return (
-    <div className={style.about}>
+    <div id="about" className={style.about}>
       <Title>Sobre</Title>
 
       <div className={style.about__content}>
@@ -41,13 +42,26 @@ export const About = () => {
           <div className={style.about__content__benefits__list}>
             <Title>Benefícios</Title>
             <ul>
-              <li>Atendimento</li>
-              <li>Profissionais Qualificados</li>
-              <li>Espaço diferenciado</li>
-              <li>Localização</li>
+              <li>
+                <span>&#128135;</span> Atendimento
+              </li>
+              <li>
+                <span>&#9986;</span> Profissionais Qualificados
+              </li>
+              <li>
+                <span>&#128136;</span> Espaço diferenciado
+              </li>
+              <li>
+                <span>&#128205;</span> Localização
+              </li>
+              <li>
+                <span>&#127775;</span> Sistema de fidelização
+              </li>
             </ul>
+            <Button>Agendar</Button>
           </div>
         </div>
+       
       </div>
     </div>
   )
