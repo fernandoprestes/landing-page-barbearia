@@ -1,6 +1,7 @@
 import { Hero } from './Hero'
 import { About } from './About/intex'
 import { Products } from './Products'
+import Contact from './Contact'
 
 export const Home = () => {
   return (
@@ -8,6 +9,7 @@ export const Home = () => {
       <Hero />
       <About />
       <Products />
+      <Contact />
     </main>
   )
 }

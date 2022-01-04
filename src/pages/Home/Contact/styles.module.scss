@@ -1,0 +1,28 @@
+.contact {
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-size: 1.6rem;
+
+  @media (min-width: 1320px) {
+    width: 1280px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+
+    width: min(800px, 90vw);
+
+    margin: 0 auto 2rem;
+
+    & input {
+      margin-bottom: 2.4rem;
+      padding: 1rem;
+    }
+
+    & textarea {
+      padding: 1rem;
+      height: 128px;
+    }
+  }
+}
