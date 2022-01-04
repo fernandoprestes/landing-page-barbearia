@@ -32,7 +32,6 @@ export const Products = () => {
           price="R$ 35,00"
         />
       </div>
-      <Button>Agendar</Button>
     </div>
   )
 }

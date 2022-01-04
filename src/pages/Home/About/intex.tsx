@@ -8,7 +8,6 @@ export const About = () => {
   return (
     <div id="about" className={style.about}>
       <Title>Sobre</Title>
-
       <div className={style.about__content}>
         <div className={style.about__content__description}>
           <div className={style.about__content__description__text}>
@@ -34,7 +33,6 @@ export const About = () => {
             <img src={BarberImg} alt="barber-with-customer" />
           </div>
         </div>
-
         <div className={style.about__content__benefits}>
           <div className={style.about__content__description__image}>
             <img src={BarberProducts} alt="barber products" />
@@ -58,10 +56,9 @@ export const About = () => {
                 <span>&#127775;</span> Sistema de fidelização
               </li>
             </ul>
-            <Button>Agendar</Button>
+            <Button type="button">Agendar</Button>
           </div>
         </div>
-       
       </div>
     </div>
   )

@@ -6,8 +6,11 @@
   text-align: center;
   cursor: pointer;
   color: #f2f2f2;
+  background: transparent;
   border: 1px solid #f2f2f2;
   margin-top: 2.4rem;
+  transition: background ease-in-out 300ms;
+
   &:hover {
     color: #202020;
     background: #f2f2f2;

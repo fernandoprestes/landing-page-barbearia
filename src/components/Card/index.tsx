@@ -1,3 +1,4 @@
+import Button from '../Button'
 import style from './styles.module.scss'
 
 interface CardProps {
@@ -14,6 +15,7 @@ export const Card = ({ title, img, content, price }: CardProps) => {
       <img src={img} alt="" />
       <p className={style.card__content}>{content}</p>
       <p className={style.card__price}>{price}</p>
+      <Button type="button">Agendar</Button>
     </div>
   )
 }

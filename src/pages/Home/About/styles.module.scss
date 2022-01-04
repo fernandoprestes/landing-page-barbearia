@@ -30,10 +30,11 @@
       &__image {
         display: none;
         margin-left: 1rem;
+
         @media (min-width: 800px) {
           display: block;
-          margin: 0 auto;
           width: 512px;
+
           img {
             width: 100%;
           }
@@ -46,9 +47,11 @@
       display: flex;
 
       &__list {
-        width: 100%;
+
         @media (min-width: 800px) {
           padding: 1.6rem;
+          margin-left: 2rem;
+          width: min(50vw, 640px);
           & a {
             position: absolute;
             bottom: 8px;
