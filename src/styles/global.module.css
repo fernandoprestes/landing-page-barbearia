@@ -149,3 +149,13 @@ body {
   background: #202020;
   color: #f2f2f2;
 }
+
+.container {
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+@media (min-width: 1320px) {
+  .container {
+    width: 1280px;
+  }
+}
