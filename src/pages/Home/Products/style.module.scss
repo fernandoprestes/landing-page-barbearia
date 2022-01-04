@@ -1,14 +1,9 @@
 .products {
-  margin: 0 auto;
-  padding: 0 1rem;
-  @media (min-width: 1320px) {
-    width: 1280px;
-  }
 
   &__cards {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
     gap: 2rem;

@@ -1,11 +1,4 @@
 .about {
-  margin: 0 auto;
-  padding: 0 1rem;
-
-  @media (min-width: 1320px) {
-    width: 1280px;
-  }
-
   &__content {
     font-size: 1.6rem;
     line-height: 2.4rem;
@@ -18,7 +11,7 @@
       &__text {
         margin-right: 1rem;
 
-        & p {
+        p {
           margin-bottom: 1rem;
         }
 
@@ -30,6 +23,7 @@
       &__image {
         display: none;
         margin-left: 1rem;
+        opacity: 0.75;
 
         @media (min-width: 800px) {
           display: block;
@@ -40,6 +34,11 @@
           }
         }
       }
+
+      &__image:hover {
+        opacity: 1;
+      }
+
     }
 
     &__benefits {
@@ -47,12 +46,12 @@
       display: flex;
 
       &__list {
-
         @media (min-width: 800px) {
           padding: 1.6rem;
           margin-left: 2rem;
           width: min(50vw, 640px);
-          & a {
+          
+          a {
             position: absolute;
             bottom: 8px;
           }

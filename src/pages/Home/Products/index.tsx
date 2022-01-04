@@ -1,14 +1,14 @@
 import style from './style.module.scss'
+import styleGlobal from './../../../styles/global.module.css'
 import HairImg from './../../../images/cabelo.png'
 import BeardImg from './../../../images/barba.png'
 import HairBeardImg from './../../../images/cabelo-barba.png'
 import { Title } from '../../../components/Title'
 import { Card } from '../../../components/Card'
-import Button from '../../../components/Button'
 
 export const Products = () => {
   return (
-    <div className={style.products}>
+    <div id="products" className={`${style.products} ${styleGlobal.container}`}>
       <Title>Produtos</Title>
       <div className={style.products__cards}>
         <Card

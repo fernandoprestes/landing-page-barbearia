@@ -2,11 +2,12 @@ import { Title } from '../../../components/Title'
 import BarberImg from './../../../images/barber-with-customer.jpg'
 import BarberProducts from './../../../images/barber-products.jpg'
 import style from './styles.module.scss'
+import styleGlobal from './../../../styles/global.module.css'
 import Button from '../../../components/Button'
 
 export const About = () => {
   return (
-    <div id="about" className={style.about}>
+    <div id="about" className={`${style.about} ${styleGlobal.container}`}>
       <Title>Sobre</Title>
       <div className={style.about__content}>
         <div className={style.about__content__description}>
