@@ -1,18 +1,21 @@
 .hero {
   height: 65vh;
-  background: url('./../../../images/banner.jpg') no-repeat;
+  background: url('./../../../images/banner-opacity.png') no-repeat;
   background-position: center;
   background-size: cover;
-  opacity: 0.375;
+  
   @media (min-width: 1023px) {
     background-position: center 65%;
   }
 
   &__content {
+    display: grid;
+    place-items: center;
+    height: calc(100% + 147px);
     margin: 0 auto;
-    height: 100%;
-    @media (min-width: 1320px) {
-      width: 1280px;
+
+    img{
+      width: 256px;
     }
   }
 }
