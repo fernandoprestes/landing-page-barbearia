@@ -32,7 +32,11 @@ export const Contact = () => {
               <li>Cidade Perdida, LT, Brasil</li>
               <li>+55 55 12345-6879</li>
               <li>email@server.com</li>
-              <li>seg a sex - 09hs as 18hs</li>
+            </ul>
+            <h2 className={style.contact__location__title}>Funcionamento</h2>
+            <ul className={style.contact__location__info}>
+              <li>Segunda a Sexta-feira - 09hs as 18hs</li>
+              <li>Horário das 9 horas as 18 horas</li>
             </ul>
           </div>
           <img src={EnderecoImg} alt="localização" />
