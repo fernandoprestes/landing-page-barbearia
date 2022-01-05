@@ -1,12 +1,16 @@
 import style from './styles.module.scss'
 import styleGlobal from './../../../styles/global.module.css'
-import LogoImg from './../../../images/logo-branco.png'
+import LogoImg from './../../../assets/images/logo.png'
+import Button from '../../../components/Button'
 
 export const Hero = () => {
   return (
     <div className={style.hero}>
       <div className={`${style.hero__content} ${styleGlobal.container}`}>
-        <img src={LogoImg} alt="" />
+        <div className={`${style.hero__content__wrapper}`}>
+          <img src={LogoImg} alt="" />
+          <Button>Agendar</Button>
+        </div>
       </div>
     </div>
   )
