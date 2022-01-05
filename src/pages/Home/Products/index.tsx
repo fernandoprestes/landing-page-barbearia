@@ -1,8 +1,8 @@
 import style from './style.module.scss'
 import styleGlobal from './../../../styles/global.module.css'
-import HairImg from './../../../images/cabelo.png'
-import BeardImg from './../../../images/barba.png'
-import HairBeardImg from './../../../images/cabelo-barba.png'
+import HairImg from './../../../assets/images/card-beard.png'
+import BeardImg from './../../../assets/images/card-hair.png'
+import HairBeardImg from './../../../assets/images/card-beard-hair.png'
 import { Title } from '../../../components/Title'
 import { Card } from '../../../components/Card'
 

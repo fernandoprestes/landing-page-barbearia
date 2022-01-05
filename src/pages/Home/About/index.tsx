@@ -1,6 +1,6 @@
 import { Title } from '../../../components/Title'
-import BarberImg from './../../../images/barber-with-customer.jpg'
-import BarberProducts from './../../../images/barber-products.jpg'
+import BarberImg from './../../../assets/images/barber-with-customer.jpg'
+import BarberProducts from './../../../assets/images/barber-products.jpg'
 import style from './styles.module.scss'
 import styleGlobal from './../../../styles/global.module.css'
 import Button from '../../../components/Button'
