@@ -3,6 +3,8 @@
     font-size: 1.6rem;
     line-height: 2.4rem;
 
+    
+
     &__description {
       display: flex;
       justify-content: space-between;
@@ -38,23 +40,29 @@
       &__image:hover {
         opacity: 1;
       }
-
     }
 
     &__benefits {
       position: relative;
       display: flex;
 
+      &__title {
+        font-size: 2.4rem;
+        padding: 1rem 0 2rem;
+      }
+
       &__list {
+        li {
+          span {
+            text-align: center;
+            display: inline-block;
+            width: 25px;
+          }
+        }
         @media (min-width: 800px) {
           padding: 1.6rem;
           margin-left: 2rem;
           width: min(50vw, 640px);
-          
-          a {
-            position: absolute;
-            bottom: 8px;
-          }
         }
       }
     }

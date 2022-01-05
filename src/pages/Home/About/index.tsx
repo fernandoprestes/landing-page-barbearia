@@ -39,7 +39,9 @@ export const About = () => {
             <img src={BarberProducts} alt="barber products" />
           </div>
           <div className={style.about__content__benefits__list}>
-            <Title>Benefícios</Title>
+            <h2 className={style.about__content__benefits__title}>
+              Benefícios
+            </h2>
             <ul>
               <li>
                 <span>&#128135;</span> Atendimento
