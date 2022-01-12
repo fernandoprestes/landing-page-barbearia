@@ -1,3 +1,5 @@
+import { useCallback } from 'react'
+import { useNavigate } from 'react-router-dom'
 import style from './style.module.scss'
 
 interface ButtonProps {
@@ -5,12 +7,13 @@ interface ButtonProps {
   type?: 'button' | 'submit' | 'reset' | undefined
 }
 
-const Button = ({ type, children }: ButtonProps) => {
+export const Button = ({ type, children }: ButtonProps) => {
+  const history = useNavigate()
+  const handleOnClick = useCallback(() => history('/to-schedule'), [history])
+
   return (
-    <button className={style.button} type={type}>
+    <button className={style.button} type={type} onClick={handleOnClick}>
       {children}
     </button>
   )
 }
-
-export default Button
