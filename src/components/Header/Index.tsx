@@ -1,13 +1,14 @@
 import style from './styles.module.scss'
 import Logo from './../../assets/images/logo.png'
+import { Link } from 'react-router-dom'
 
 export const Header = () => {
   return (
     <header className={style.header}>
       <div className={style.header__content}>
-        <a href="#">
+        <Link to="/">
           <img src={Logo} alt="logo barbearia" />
-        </a>
+        </Link>
         <nav className={style.header__navigation}>
           <ul className={style.header__navigation__itens}>
             <li>

@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Header } from './components/Header/Index'
 import { Schedule } from './pages/Schedule'
 import { Home } from './pages/Home'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/to-schedule" element={<Schedule />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
